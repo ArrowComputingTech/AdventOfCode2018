@@ -43,10 +43,7 @@ public class Day001 : MonoBehaviour
 
     public void Formulate()
     {
-        
-        //FileStream dataFile = File.Open("C:/Users/19999hz/Desktop/string.txt", FileMode.Open);
-        //x = File.ReadAllLines("C:\\Users\\19999hz\\Desktop\\string.txt");
-        string[] stringArray = System.IO.File.ReadAllLines(@"C:\\Users\\19999hz\\Desktop\\string.txt");
+        string[] stringArray = System.IO.File.ReadAllLines(@"\\string.txt");
         integerArray = new int[stringArray.Length];
         foreach (string number in stringArray)
         {
